@@ -1,0 +1,16 @@
+@import "tailwindcss";
+@theme {
+  --color-bg: #0e1116;
+  --color-surface: #171c24;
+  --color-hi: #202733;
+  --color-ink: #e8edf2;
+  --color-mute: #8a96a5;
+  --color-accent: #f2a541;
+  --color-danger: #e5675b;
+  --color-ok: #5bc48c;
+  --color-line: #262e3a;
+}
+html, body { background: var(--color-bg); color: var(--color-ink); }
+body { -webkit-tap-highlight-color: transparent; overscroll-behavior-y: none; }
+button { cursor: pointer; }
+input, button { font: inherit; }
